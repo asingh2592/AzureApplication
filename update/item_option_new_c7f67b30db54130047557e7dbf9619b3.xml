@@ -35,11 +35,11 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>u_name</name>
-        <order>100</order>
+        <name>u_short_description</name>
+        <order>700</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Name</question_text>
+        <question_text>Short Description</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -54,21 +54,21 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-13 09:34:21</sys_created_on>
+        <sys_created_on>2018-02-13 10:36:00</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>2be8eff8db14130047557e7dbf96198e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Name</sys_name>
+        <sys_id>c7f67b30db54130047557e7dbf9619b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Short Description</sys_name>
         <sys_package display_value="Azure Application" source="x_186173_azure_app">dfb72fb8db14130047557e7dbf9619a1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Azure Application">dfb72fb8db14130047557e7dbf9619a1</sys_scope>
-        <sys_update_name>item_option_new_2be8eff8db14130047557e7dbf96198e</sys_update_name>
+        <sys_update_name>item_option_new_c7f67b30db54130047557e7dbf9619b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-13 09:34:21</sys_updated_on>
+        <sys_updated_on>2018-02-13 10:37:22</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>16</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -81,5 +81,5 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=2be8eff8db14130047557e7dbf96198e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7f67b30db54130047557e7dbf9619b3"/>
 </record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="dnslabelprefix" label="dnsLabelPrefix" language="en" table="x_186173_azure_app_servicenow_azure_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>dnslabelprefix</element>
+            <help/>
+            <hint/>
+            <label>dnsLabelPrefix</label>
+            <language>en</language>
+            <name>x_186173_azure_app_servicenow_azure_table</name>
+            <plural>dnsLabelPrefixes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-14 12:54:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0c80ad59db10130047557e7dbf961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>dnsLabelPrefix</sys_name>
+            <sys_package display_value="Azure Application" source="x_186173_azure_app">dfb72fb8db14130047557e7dbf9619a1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Azure Application">dfb72fb8db14130047557e7dbf9619a1</sys_scope>
+            <sys_update_name>sys_documentation_x_186173_azure_app_servicenow_azure_table_dnslabelprefix_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-14 12:54:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

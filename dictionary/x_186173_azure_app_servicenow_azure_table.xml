@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Servicenow Azure Table" max_length="40" name="x_186173_azure_app_servicenow_azure_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="adminPassword" max_length="40" name="adminpassword" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="adminUsername" max_length="40" name="adminusername" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="dnsLabelPrefix" max_length="40" name="dnslabelprefix" type="string"/>
+    </element>
+</database>

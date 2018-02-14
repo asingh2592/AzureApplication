@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_186173_azure_app.AutopopulateScopeinfo</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AutopopulateScopeinfo</name>
+        <script><![CDATA[var AutopopulateScopeinfo = Class.create();
+Userdetail.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	
+	userdetails: function()
+	{
+		
+		var Requested=this.getParameter('sysparm_Requested_for');//get sys_id of Requested for 
+		
+		var user=new GlideRecord('sys_user');// user table
+		user.addQuery('sys_id',Requested);
+		user.query();
+		if(user.next())
+			{
+				var name=user.name;
+				var email=user.email;
+				var phone=user.mobile_phone;
+				var address=user.getDisplayValue('location');
+				
+				
+				return name+'||'+email+'||'+phone+'||'+address;
+				
+			}
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+   
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:12:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c1fc44c5db54130047557e7dbf9619ed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>AutopopulateScopeinfo</sys_name>
+        <sys_package display_value="Azure Application" source="x_186173_azure_app">dfb72fb8db14130047557e7dbf9619a1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Azure Application">dfb72fb8db14130047557e7dbf9619a1</sys_scope>
+        <sys_update_name>sys_script_include_c1fc44c5db54130047557e7dbf9619ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 13:50:08</sys_updated_on>
+    </sys_script_include>
+</record_update>

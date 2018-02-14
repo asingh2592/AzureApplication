@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Azure Catalog Item ">3a986fb8db14130047557e7dbf9619a6</cat_item>
+        <cat_item display_value="Azure Catalog Item Demo">3a986fb8db14130047557e7dbf9619a6</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>

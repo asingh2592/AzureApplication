@@ -3,11 +3,11 @@
     <catalog_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_catalog>true</applies_catalog>
-        <applies_req_item>true</applies_req_item>
-        <applies_sc_task>true</applies_sc_task>
-        <applies_to>item</applies_to>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_to>set</applies_to>
         <catalog_conditions/>
-        <catalog_item display_value="Azure Catalog Item Demo">3a986fb8db14130047557e7dbf9619a6</catalog_item>
+        <catalog_item/>
         <conditions/>
         <description/>
         <global>true</global>
@@ -21,27 +21,27 @@
         <script_false><![CDATA[function onCondition() {}]]></script_false>
         <script_true><![CDATA[function onCondition() {}]]></script_true>
         <set_values/>
-        <short_description>Make Mandatory</short_description>
+        <short_description>Make Read Only /Mandatory</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-13 10:38:40</sys_created_on>
+        <sys_created_on>2018-02-13 11:50:11</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>3fa77f30db54130047557e7dbf9619b0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Make Mandatory</sys_name>
+        <sys_id>08180485db54130047557e7dbf961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Read Only /Mandatory</sys_name>
         <sys_overrides/>
         <sys_package display_value="Azure Application" source="x_186173_azure_app">dfb72fb8db14130047557e7dbf9619a1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Azure Application">dfb72fb8db14130047557e7dbf9619a1</sys_scope>
-        <sys_update_name>catalog_ui_policy_3fa77f30db54130047557e7dbf9619b0</sys_update_name>
+        <sys_update_name>catalog_ui_policy_08180485db54130047557e7dbf961907</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-13 10:39:19</sys_updated_on>
+        <sys_updated_on>2018-02-13 11:50:11</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
-        <variable_set/>
+        <variable_set display_value="User Info">479f3ff0db54130047557e7dbf961982</variable_set>
         <view/>
     </catalog_ui_policy>
 </record_update>

@@ -11,7 +11,7 @@
         <oauth2_profile/>
         <protocol_name/>
         <rest_endpoint>https://github.com/asingh2592/AzureApplication.git</rest_endpoint>
-        <rest_message display_value="Azure Application ">2a6cef3cdb14130047557e7dbf9619c1</rest_message>
+        <rest_message display_value="Azure Application Demo">2a6cef3cdb14130047557e7dbf9619c1</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-13 09:52:02</sys_created_on>

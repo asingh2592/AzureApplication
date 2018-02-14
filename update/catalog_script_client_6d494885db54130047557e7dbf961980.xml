@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_to>set</applies_to>
+        <cat_item/>
+        <cat_variable>IO:3ab54c05db54130047557e7dbf961988</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>Autopopulate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+	var user=new GlideAjax('x_186173_azure_app.AutopopulateScopeinfo');
+	user.addParam('sysparm_name','userdetails');
+	user.addParam('sysparm_Requested_for',newValue);
+	user.getXMLAnswer(userdataset);	
+	 
+}
+
+  function userdataset(response)
+    { 
+	    var answer=response;
+		var data=[];
+	    data=answer.split('||');
+		alert("data[0]");
+	 	g_form.setValue('u_name',data[0]);
+		g_form.setValue('u_email',data[1]);
+		g_form.setValue('u_phone',data[2]);
+		g_form.setValue('u_address',data[3]);
+		
+		
+    }]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 11:55:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d494885db54130047557e7dbf961980</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Autopopulate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Application" source="x_186173_azure_app">dfb72fb8db14130047557e7dbf9619a1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Azure Application">dfb72fb8db14130047557e7dbf9619a1</sys_scope>
+        <sys_update_name>catalog_script_client_6d494885db54130047557e7dbf961980</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 13:56:50</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set display_value="User Info">479f3ff0db54130047557e7dbf961982</variable_set>
+        <view/>
+    </catalog_script_client>
+</record_update>
